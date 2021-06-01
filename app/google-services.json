@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "your firebase project no",
+    "firebase_url": "your firebase url to storage",
+    "project_id": "your firebase project id",
+    "storage_bucket": "your firebase storage bucket"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5273899736:android:f6eebe2dea04d49e",
+        "android_client_info": {
+          "package_name": "com.eg.moviehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5273899736-s3061j723lt6fgip65p2jfsktdfc4vio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxm2IiSiJGruI-H-FiLbdkxNXzH78NzDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

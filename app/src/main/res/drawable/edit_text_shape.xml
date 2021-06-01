@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false">
+    <shape  android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <solid android:color="#90ffffff"></solid>
+    <corners android:topLeftRadius="@dimen/edit_text_shapes_radius"
+        android:bottomRightRadius="@dimen/edit_text_shapes_radius"
+        android:bottomLeftRadius="@dimen/edit_text_shapes_radius"
+        android:topRightRadius="@dimen/edit_text_shapes_radius"
+        />
+
+
+        </shape>
+    </item>
+
+
+    <item android:state_focused="true" >
+        <shape  android:shape="rectangle"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            >
+
+            <solid android:color="@color/white"></solid>
+             <corners android:topLeftRadius="@dimen/edit_text_shapes_radius"
+                android:bottomRightRadius="@dimen/edit_text_shapes_radius"
+                android:bottomLeftRadius="@dimen/edit_text_shapes_radius"
+                android:topRightRadius="@dimen/edit_text_shapes_radius"
+                />
+
+
+        </shape>
+    </item>
+</selector>

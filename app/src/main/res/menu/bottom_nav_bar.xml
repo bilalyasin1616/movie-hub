@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item
+            android:id="@+id/nav_1"
+            android:title=""
+            android:icon="@drawable/icon_home">
+
+        </item>
+        <item
+            android:id="@+id/nav_2"
+         android:title=""
+
+            android:icon="@drawable/icons8_stream">
+
+        </item>
+   <item
+       android:id="@+id/nav_3"
+       android:title=""
+       android:icon="@drawable/icons8_upload_to_ftp_24">
+
+   ></item>
+        <item
+            android:id="@+id/nav_4"
+            android:title=""
+            android:icon="@drawable/icons_menu">
+
+        </item>
+
+
+</menu>

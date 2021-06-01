@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eg.moviehub.RegisterActivity">
+
+    <!--Background image-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_background"
+        android:src="@drawable/backlogin2"
+        android:scaleType="centerCrop"/>
+
+    <!--Camera icon-->
+
+
+    <!--top form-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin_form_top"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_below="@+id/rel_img_camera"
+        android:layout_marginTop="10dip"
+        android:layout_margin="20dip"
+        android:background="@color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="Email"
+            android:id="@+id/et_email"
+            android:padding="10dip"
+            android:background="@color/white"
+            android:layout_weight="1"/>
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/dim_white"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="Enter Password"
+            android:padding="10dip"
+            android:inputType="textPassword"
+            android:id="@+id/et_password"
+            android:background="@color/white"
+            android:layout_weight="1"/>
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/dim_white"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@id/lin_form_top"
+        android:textColor="@color/white"
+        android:id="@+id/forgotpass"/>
+
+    <!--bottom form-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin_form_bottom"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginBottom="40dip"
+        android:background="@color/white">
+
+    </LinearLayout>
+
+    <!--already have account-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel_text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lin_form_top">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/sign_in_btn"
+            android:layout_below="@id/tv_already_have_account"
+            android:layout_marginTop="30dip"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv_already_have_account"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

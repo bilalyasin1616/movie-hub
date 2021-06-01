@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_grey"
+    android:layout_marginBottom="40dip"
+
+    android:clickable="true"
+   >
+<ImageView
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="130dip"
+    android:scaleType="centerCrop"
+    android:id="@+id/iv_thumbnail"
+
+    android:src="@drawable/banner_1024x500"
+    />
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip">
+        <TextView
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_text_size"
+            android:text="Title of the video"
+            />
+       <LinearLayout
+           android:paddingLeft="15dip"
+           android:paddingRight="15dip"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="Genre : "
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Health and Care"
+               android:id="@+id/tv_genre"
+               />
+
+
+
+       </LinearLayout>
+        <TextView
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+
+            android:id="@+id/video_access_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type : Public"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip"
+        android:id="@+id/ll_icons_layout"
+       >
+        <ImageView
+            android:padding="5dip"
+            android:tint="@color/gray"
+            android:layout_margin="10dip"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_thumb_up_alt_black_24dp"
+            android:layout_marginRight="10dip"
+           android:background="@drawable/ripple_grey"
+            />
+        <ImageView
+            android:padding="5dip"
+            android:tint="@color/gray"
+            android:background="@drawable/ripple_grey"
+            android:clickable="true"
+            android:layout_margin="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_thumb_down_alt_black_24dp"
+            />
+        <ImageView
+            android:tint="@color/gray"
+            android:padding="5dip"
+            android:clickable="true"
+            android:layout_margin="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_black_24dp"
+            />
+
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/dim_white"></View>
+
+    <RelativeLayout
+        android:clickable="true"
+        android:background="@drawable/ripple_primary"
+       android:layout_marginLeft="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+<de.hdodenhof.circleimageview.CircleImageView
+
+    android:layout_width="40dip"
+    android:layout_height="40dip"
+    android:src="@drawable/sample"
+    android:id="@+id/civ_profile_pic"
+    android:clickable="true"
+
+    />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_profile_name"
+            android:text="Shaheryar Tariq"
+            android:textColor="@color/Black"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/civ_profile_pic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dip"
+            android:text="Free User"
+            android:textSize="@dimen/text_size_mini"
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_user_type"
+            />
+
+    </RelativeLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/dim_white"></View>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="restext">
+        <item>"Hip Hop"</item>
+        <item>"Science"</item>
+        <item>"Music"</item>
+        <item>"Food"</item>
+        <item>"Vlog"</item>
+        <item>"Fails"</item>
+        <item>"Funny"</item>
+        <item>"Horror"</item>
+        <item>"Trending"</item>
+        <item>"Movies"</item>
+        <item>"Seasons"</item>
+        <item>"Latest"</item>
+    </array>
+</resources>

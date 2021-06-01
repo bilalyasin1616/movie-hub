@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieHub</string>
+    <string name="facebook_app_id">263459647898302</string>
+    <string name="fb_login_protocol_scheme">fb263459647898302</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
